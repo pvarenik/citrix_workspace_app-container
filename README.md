@@ -1,6 +1,7 @@
 # Docker Hub
 
 Docker hub (`https://hub.docker.com/r/pvarenik/citrix_workspace`)
+
 Run the command below to start container
 ```
 docker run -d -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime --name citrix_workspace pvarenik/citrix_workspace
